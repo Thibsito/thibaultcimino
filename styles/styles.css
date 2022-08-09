@@ -1,0 +1,47 @@
+.normal-text{
+    color: red;
+    font-weight: bold;
+}
+.vertical-menu{
+    width: auto;
+}
+
+body{
+    background-image: url(/styles/img/jGlzr.png);
+}
+
+.portfolio{
+    background-color: violet;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    line-height: 1;
+    size: 3em;
+    color: red;
+    text-align: center;
+}
+
+.vertical-menu a {
+    background-color: rgb(19, 226, 91); /* Grey background color */
+    color: black; /* Black text color */
+    font-weight: bold;
+    display: block;
+    padding: 14px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+
+.vertical-menu a:hover{
+    background-color: aqua;
+}
+
+.vertical-menu a.home{
+    background-color: blue;
+    color: white;
+}
+
+.vertical-menu a.home:hover{
+    background-color: black;
+}
+
+.lorem{
+    border: 1em solid cyan;
+}
